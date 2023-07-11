@@ -13,6 +13,7 @@ body {
     justify-content: space-around;
 }
 
+
 .header-img {
     margin: 50px 40 0px 1045px;
     align-content: baseline;
@@ -43,7 +44,9 @@ body {
     text-align: center;
     padding-top: 20px;
 }
-
+.features-title{
+    font-size: 40px;
+}
 .features-des {
     padding-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
