@@ -7,7 +7,8 @@ body {
 .header-container {
     height: 450px;
     width: auto;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-color: rgba(229, 84, 115,0.10);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,7 +27,7 @@ body {
 }
 
 .button-pr {
-    /* display: inline-flex; */
+    font-size: medium;
     padding: 20px 43px;
     gap: 10px;
     border-radius: 8px;
@@ -63,6 +64,7 @@ body {
     display: flex;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    margin-left: 80px;
 }
 .box2-img {
     display: flex;
@@ -79,7 +81,7 @@ body {
     display: flex;
     justify-content: space-around;
     text-decoration: underline;
-    padding-top: 1px;
+    /* padding-top: 1px; */
     font-size: 18px;
 }
 
@@ -115,17 +117,22 @@ body {
     margin-top: 20px;
     width: auto;
     height: 450px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-color: rgba(229, 84, 115,0.10);
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
+.hot-deal{
+    border: 3px solid green;
+    border-style:dotted;
+    color: tomato;
+}
 .hot-deal-des {
-    font-size: small;
+    font-size: medium;
     text-align: center;
     padding: 20px;
-    color: gray;
+    color: black;
 }
 
 .hot-deal-ctn {
@@ -213,7 +220,7 @@ span {
 }
 
 .copy-right {
-    color: rgb(152, 149, 149);
+    color: rgb(169, 164, 164);
 }
 
 .footer-des {
