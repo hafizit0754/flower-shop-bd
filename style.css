@@ -70,22 +70,19 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
-
 .box3-img {
     display: flex;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
-
 .fet-img-title {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     text-decoration: underline;
     font-size: 18px;
     line-height: 35px;
-   
-}
 
+}
 /* Delivery Section */
 
 .delivery-container {
@@ -107,7 +104,8 @@ body {
     align-items: center;
     margin-right: 50px;
 }
-.delivery-alin{
+
+.delivery-alin {
     align-items: center;
 }
 
@@ -116,7 +114,6 @@ body {
     margin-top: 20px;
     width: auto;
     height: 450px;
-    /* background-color: antiquewhite; */
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
@@ -178,7 +175,7 @@ span {
 /* deals section */
 .deal-container {
     background-image: url('./asset/Rectangle\ 9.png');
-    margin: 40px 90px 40px 90px;
+    margin: 40px 75px 40px 90px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,6 +196,8 @@ span {
     padding: 10px;
     border-radius: 8px;
     border: none;
+    margin-right: 10px;
+    margin-left: 30px;
 }
 
 .deal-des {
