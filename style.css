@@ -7,8 +7,7 @@ body {
 .header-container {
     height: 450px;
     width: auto;
-    /* background-color: antiquewhite; */
-    background-color: rgba(229, 84, 115,0.10);
+    background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -38,19 +37,17 @@ body {
 
 /* Features Section */
 .featurers-container {
-    /* height: 450px; */
-    /* width: auto; */
-    /* margin: 40px 90px 40px 90px; */
     margin-top: 20px;
     margin-left: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align: center;
     padding-top: 20px;
 }
 
-.features-des{
-    padding-bottom: 5px;
-    font-family: 'Courier New', Courier, monospace;
+.features-des {
+    padding-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: smaller;
 }
 
 .features-img {
@@ -65,51 +62,53 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     margin-left: 80px;
+
 }
+
 .box2-img {
     display: flex;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
+
 .box3-img {
     display: flex;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
 
-.fet-img-title{
-    display: flex;
+.fet-img-title {
+    display:flex;
     justify-content: space-around;
     text-decoration: underline;
-    /* padding-top: 1px; */
     font-size: 18px;
+    line-height: 35px;
+   
 }
 
 /* Delivery Section */
 
 .delivery-container {
-    background-color: #2727270D;
-    background-position: center;
+    background-color: rgba(39, 39, 39, 0.05);
     margin: 40px 90px 40px 90px;
     height: 150px;
     padding-top: 15px;
-    align-items: center;
+    border-radius: 10px;
 }
 
 .delivery-img {
     display: flex;
     justify-content: space-around;
-    
-    
 }
 
 .delivery-img-title {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
-    margin-left: 0px;
- 
-
+    align-items: center;
+    margin-right: 50px;
+}
+.delivery-alin{
+    align-items: center;
 }
 
 /* Hot Deal Section */
@@ -118,21 +117,23 @@ body {
     width: auto;
     height: 450px;
     /* background-color: antiquewhite; */
-    background-color: rgba(229, 84, 115,0.10);
+    background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.hot-deal{
+
+.hot-deal {
     border: 3px solid green;
-    border-style:dotted;
+    border-style: dotted;
     color: tomato;
 }
+
 .hot-deal-des {
-    font-size: medium;
+    font-size: smaller;
     text-align: center;
     padding: 20px;
-    color: black;
+    color: gray;
 }
 
 .hot-deal-ctn {
@@ -209,7 +210,7 @@ span {
     height: 100px;
     width: auto;
     text-align: center;
-    background-color:rgb(65, 54, 54);
+    background-color: rgb(65, 54, 54);
     color: white;
     padding: 120px;
     margin-top: 50px;
