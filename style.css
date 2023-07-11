@@ -1,0 +1,117 @@
+/* Header Section */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:;
+}
+.header-container{
+    height: 450px;
+    width: auto;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-img{
+    margin: 50px 240 50px 1045px;
+    align-content:baseline;
+}
+.heading-des{
+    font-size: smaller;
+    text-align: justify;
+    padding: 20px 0 20px 0;
+    color: gray;
+}
+.button-pr{
+/* display: inline-flex; */
+padding: 20px 43px;
+/* align-items: flex-start; */
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+color: white;
+border: none;
+}
+
+/* Hot Deal Section */
+.hot-deal-container{
+    margin-top:20px;
+    width: auto;
+    height: 450px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hot-deal-des{
+    font-size: small;
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
+.hot-deal-ctn{
+    text-align: center;
+}
+span{
+    color:red;
+    /* font-weight: 800px; */
+    font-size: larger;
+}
+
+/* Instragram Section */
+.instra-container{
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+    height: 350px;
+}
+.instra-des{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.instra-img{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+    /* align-content: center; */
+    /* width: 60%; */
+}
+.instra-alin{
+    align-items: center;
+    height: 70vh;
+    align-content: center;
+    margin-left: 120px;
+}
+/* deals section */
+.deal-container{
+    background-image: url('./asset/Rectangle\ 9.png');
+    /* height: 70vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.deal-img{
+    height: 400px;
+    width: 20px;
+    align-items: center;
+}
+.search{
+    height: 64px;
+    width: 700px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.deal-title{
+    padding: 10px;
+}
