@@ -4,11 +4,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .header-container {
     height: 450px;
     width: auto;
@@ -55,7 +50,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 .features-img{
-    height: 430px;
+    height: 480px;
     display: flex;
     gap: 200px;
    padding-bottom: 20px;
@@ -71,9 +66,30 @@ body {
     justify-content: space-around;
     text-decoration: underline;
     font-size: 20px;
-    /* text-align: center; */
-    padding: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
 }
+/* Delivery Section */
+    .delivery-container{
+        background-color: #2727270D;
+        background-position: center;
+        margin:40px 90px 40px 90px;
+        height:150px;
+        align-items: center;
+        
+        padding-top: 10px;
+    }
+    .delivery-img{
+        display: flex;
+        justify-content: space-around;
+    }
+    .delivery-img-title{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+    } 
 /* Hot Deal Section */
 .hot-deal-container {
     margin-top: 20px;
